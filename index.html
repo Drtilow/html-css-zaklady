@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ukázková stránka</title>
+
+  <!-- Externí CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Interní CSS -->
+  <style>
+    body {
+      background-color: #f0f0f0; /* Barva pozadí stránky */
+      font-family: Arial, sans-serif; /* Písmo pro celý text */
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header {
+      background-color: #333; /* Barva hlavičky */
+    }
+
+    footer {
+      background-color: #555; /* Barva patičky */
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #444;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: yellow; /* Změna barvy při najetí myší */
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="font-size: 2em;">Vítejte na mé tenisové stránce</h1> <!-- Inline styl -->
+  </header>
+
+  <nav>
+    <a href="#">Domů</a>
+    <a href="#">O nás</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Hlavní obsah</h2>
+      <p>Toto je ukázkový text hlavního obsahu stránky.</p>
+      <img src="C:\Users\trtik ondrej\Downloads\istockphoto-1483011696-1024x1024.jpg"
+           alt="Tenisový míček a raketa na hřišti"
+           style="max-width: 100%; height: auto;">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Moje stránka</p>
+  </footer>
+
+</body>
+</html>
